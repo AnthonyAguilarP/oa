@@ -9,19 +9,16 @@ const translations = {
     nav_contact: "Contact",
 
     // Hero
-    hero_title: "We build more than structures, <span class='gold-text'>we build dreams</span>",
-    hero_subtitle:
-      "Quality that lasts, trust that builds. Your vision, our mission. Where others see blueprints, we see the future.",
+    hero_title: "We build more than structures, <span class='blue-text'>we build dreams</span>",
+    hero_subtitle: "Quality that lasts, trust that builds. Your vision, our mission. As a premier construction company, we bring your projects to life.",
     hero_btn_estimate: "Free Estimates",
     hero_btn_services: "Our Services",
 
     // About
-    about_title: "About <span class='gold-text'>Us</span>",
+    about_title: "About <span class='blue-text'>Us</span>",
     about_history: "Our History",
-    about_p1:
-      "At OA BUILD-OUT CONTRACTORS LLC, we are dedicated to transforming spaces and creating dream homes. Our passion for construction and commitment to excellence has positioned us as leaders in the industry. Serving the greater Houston area including Sugar Land, Missouri City, Stafford, and Fort Bend County.",
-    about_p2:
-      "We offer complete construction and remodeling services, from initial design to project completion. Our team of highly trained professionals works with dedication and attention to detail to ensure exceptional results in every project.",
+    about_p1: "At OA BUILD-OUT CONTRACTORS LLC, we are a dedicated construction company transforming spaces and executing top-tier residential and commercial projects. Serving the greater Houston area including Sugar Land, Missouri City, Stafford, and Fort Bend County.",
+    about_p2: "We offer comprehensive construction services, focusing on high-quality finishes and structural integrity. Our team of highly trained professionals works with dedication and attention to detail to ensure exceptional results in every construction and remodeling project.",
     about_languages: "Languages",
     about_languages_spoken: "Spanish and English",
     about_payment: "Payment Methods",
@@ -34,98 +31,106 @@ const translations = {
     about_trust: "Trust",
 
     // Services
-    services_title: "Our <span class='gold-text'>Services</span>",
-    services_subtitle: "We offer a wide range of construction services to meet all your needs.",
-    services_framing: "Framing",
-    services_decks: "Decks",
-    services_siding: "Siding",
-    services_windows: "Windows",
-    services_roofing: "Roofing",
-    services_construction: "Construction",
-    services_framing_desc:
-      "Solid and precise structures that form the foundation of your project. We build with safety and durability.",
-    services_decks_desc:
-      "Custom outdoor spaces that combine style, functionality, and durability for outdoor enjoyment.",
-    services_siding_desc:
-      "Coverings that protect and beautify your home, offering weather resistance and low maintenance.",
-    services_windows_desc: "High-efficiency windows that improve lighting, insulation, and aesthetics of your home.",
-    services_construction_desc: "Complete construction services with attention to detail and commitment to quality.",
-    services_roofing_desc:
-      "Durable and efficient roofs that protect your investment and improve the energy efficiency of your home.",
+    services_title: "Our <span class='blue-text'>Services</span>",
+    services_subtitle: "We offer specialized construction and finishing services for all your needs.",
+    services_laminate_painting: "Exterior House Painting",
+    services_psyren_painting: "Professional Drywall Setup",
+    services_commercial_exterior: "Interior White Painting",
+    services_residential_exterior: "White Exterior Coating",
+    services_ceramic: "Laminate Floor Expert",
+    services_laminate: "Exclusive Hallway Flooring",
+
+    // Service Descs
+    services_laminate_painting_desc: "Specialized in painting beautiful homes with high-quality finishes and elegant white exteriors.",
+    services_psyren_painting_desc: "Modern painting solutions that enhance the architectural beauty and curb appeal of your residence.",
+    services_commercial_exterior_desc: "Professional exterior painting meticulously applied to give your house a brand-new, premium look.",
+    services_residential_exterior_desc: "Durable and brilliant white coating designed to protect your home while keeping it stunning.",
+    services_ceramic_desc: "High-quality laminate flooring installation for a durable, elegant, and low-maintenance interior.",
+    services_laminate_desc: "Precision laminate installation for hallways and high-traffic areas in luxury homes.",
     services_request: "Request Free Estimate",
 
+    // New Service Detail Card Descriptions (specifically for the cards)
+    card_drywall_desc: "Expert drywall installation and structural finishing, providing the perfect base for any interior wall in American homes.",
+    card_tile_desc: "High-precision laminate installation in interior spaces, creating a seamless and durable floor that enhances your living area.",
+    card_ceramic_desc: "Specialized laminate flooring work focusing on modern aesthetics and long-lasting durability for your home.",
+    card_ext_paint_desc: "Durable exterior painting that protects your home from the weather while giving it a fresh, clean look.",
+    card_int_paint_desc: "Beautiful white interior painting that brightens up your home, creating a clean and spacious atmosphere.",
+    card_premium_int_desc: "Professional interior painting for multi-level homes, including staircases and hallways with a flawless finish.",
+
     // Service Detailed Descriptions
-    service_framing_title: "Framing",
-    service_framing_p1:
-      "We specialize in high-precision structural framing, providing the solid foundation your project needs to grow with safety, efficiency, and durability. In every cut, nail, and measurement, we build trust.",
-    service_framing_p2:
-      "Framing is not just the skeleton of a construction, it's the heart that supports every plan, every idea and every dream. Our commitment is to provide resistant, exact structures made to last.",
-    service_framing_p3:
-      "From the first nail to the last panel, our framing team transforms blueprints into real, solid, and safe structures. We work with passion, precision, and professionalism to ensure your project is built on an impeccable foundation.",
+    service_laminate_painting_title: "Exterior House Painting",
+    service_laminate_painting_p1: "We specialize in painting beautiful white houses, common in the USA, providing a clean and elegant look that stands out in any neighborhood.",
+    service_laminate_painting_p2: "Our high-quality exterior paint ensures your home stays stunning and protected against the elements for many years.",
 
-    service_decks_title: "Decks",
-    service_decks_p1:
-      "We transform your outdoor space into a place for gathering, relaxation, and style. Our decks combine design, durability, and impeccable finishes so you can enjoy every corner of your outdoor home.",
-    service_decks_p2:
-      "We build custom decks that not only beautify your property but also add value, functionality, and warmth to your lifestyle. We design with comfort, aesthetics, and resistance to the passage of time in mind.",
-    service_decks_p3:
-      "A good deck is not just built, it's designed to be lived in. With high-quality materials and expert craftsmanship, we create durable outdoor spaces that invite sharing, relaxation, and maximum enjoyment.",
+    service_psyren_painting_title: "Professional Drywall Setup",
+    service_psyren_painting_p1: "Expert drywall installation and structural finishing, providing the perfect base for any interior wall in American homes.",
+    service_psyren_painting_p2: "We guarantee structural integrity and a perfectly smooth surface for a flawless paint finish or textured coating.",
 
-    service_siding_title: "Siding",
-    service_siding_p1:
-      "We protect what's most important: your home. Our siding service not only improves the appearance of your home but also guarantees an efficient barrier against weather, moisture, and the passage of time. Style and resistance in every panel.",
-    service_siding_p2:
-      "Siding is much more than a covering; it's an investment in durability, efficiency, and beauty. With high-quality materials and precise installation, we transform your facade into a statement of style and protection.",
-    service_siding_p3:
-      "Every home has a story to tell from the outside. With our siding service, we ensure that first impression is impeccable, modern, and lasting. Because every detail matters, we start from the outside in.",
-    service_siding_p4:
-      "We offer siding solutions that combine aesthetics, resistance, and low maintenance. Whether you're looking to renovate your home or protect a new construction, we have the ideal option for every style and need.",
+    service_commercial_exterior_title: "Interior White Painting",
+    service_commercial_exterior_p1: "Transform your home with our bright and pure white interior painting services. We create a clean, luminous atmosphere in every room.",
+    service_commercial_exterior_p2: "Our professional painters use premium finishes to ensure that walls, ceilings, and trim look absolutely stunning and modern.",
 
-    service_windows_title: "Windows",
-    service_windows_p1:
-      "Our windows not only illuminate your home but also protect it. Designed to offer thermal insulation, energy efficiency, and elegance, our window solutions provide comfort, savings, and style in every corner.",
-    service_windows_p2:
-      "Replacing your windows is more than an aesthetic improvement: it's an investment in efficiency, security, and well-being. With high-performance technology, durable materials, and custom finishes, we transform your home from the inside out.",
-    service_windows_p3:
-      "We create spaces full of light, comfort, and tranquility. Our window installation service offers customized solutions that combine modern design, energy efficiency, and weather resistance.",
-    service_windows_p4:
-      "Installing new windows is renewing the way your home breathes, illuminates, and protects itself. We offer innovative systems that improve energy efficiency, reduce outside noise, and increase the value of your property.",
+    service_residential_exterior_title: "White Exterior Coating",
+    service_residential_exterior_p1: "Specialized coating and painting for white houses, delivering a bright, clean, and professional appearance that reflects heat and looks amazing.",
+    service_residential_exterior_p2: "We protect your investment with weather-resistant materials that keep the white color vibrant and resistant to aging.",
 
-    service_roofing_title: "Roofing",
-    service_roofing_p1:
-      "A quality roof not only protects your home, it defines it. Our roofing service combines premium materials, professional installation, and attention to every detail to provide you with peace of mind, efficiency, and impeccable aesthetics.",
-    service_roofing_p2:
-      "Your roof is the first line of defense against the weather. That's why, in every roofing project, we offer resistant, durable solutions adapted to the most demanding conditions. Safety, efficiency, and style, all in one structure.",
-    service_roofing_p3:
-      "Every roof we install is designed to last, resist, and beautify. We use advanced technology and certified materials to ensure your investment is protected for decades.",
-    service_roofing_p4:
-      "Roofing is not just a necessity, it's an opportunity to elevate the value, efficiency, and appearance of your property. Whether it's a new installation or replacement, we work with precision and commitment in every layer.",
-    service_roofing_p5:
-      "We know that a good roof is not noticed, but felt. Our specialized roofing team offers solutions that insulate, protect, and improve home comfort, without compromising design.",
+    service_ceramic_title: "Laminate Floor Expert",
+    service_ceramic_p1: "High-precision laminate installation in interior spaces, creating a seamless and durable floor that enhances any room.",
+    service_ceramic_p2: "We ensure proper leveling and underlayment to provide a stable, sound-absorbing, and beautiful surface that lasts for decades.",
+
+    service_laminate_title: "Exclusive Hallway Flooring",
+    service_laminate_p1: "Expert laminate flooring installation specifically designed for hallways and corridors in high-end residential properties.",
+    service_laminate_p2: "Transform your home's transitions with a seamless, high-traffic resistant finish that connects your living spaces with unmatched style.",
 
     // Gallery
-    gallery_title: "Our <span class='gold-text'>Gallery</span>",
-    gallery_subtitle: "Explore some of our recent projects that showcase our expertise and quality of work.",
+    gallery_title: "Our <span class='blue-text'>Gallery</span>",
+    gallery_subtitle: "Explore some of our recent construction and finishing projects.",
     gallery_all: "All",
-    gallery_residential_framing: "Residential Framing",
-    gallery_custom_deck: "Custom Deck",
-    gallery_modern_siding: "Modern Siding",
-    gallery_efficient_windows: "Efficient Windows",
-    gallery_residential_roof: "Residential Roof",
-    gallery_commercial_framing: "Commercial Framing",
-    gallery_deck_pergola: "Deck",
-    gallery_classic_siding: "Classic Siding",
-    gallery_location: "Richmond, VA",
+    gallery_laminate_painting: "Laminate & Painting",
+    gallery_psyren_painting: "Psyren",
+    gallery_commercial_exterior: "Commercial Paint",
+    gallery_residential_exterior: "Exterior Paint",
+    gallery_ceramic: "Ceramic",
+    gallery_laminate: "Laminate",
+    gallery_location: "Houston, TX",
+    gallery_concrete: "Concrete Work",
+
+    // New Services Card Keys
+    services_card_1: "Professional Drywall Setup",
+    services_card_2: "Master Laminate Flooring",
+    services_card_3: "Modern Laminate Design",
+    services_card_4: "Quality Exterior Painting",
+    services_card_5: "Pure White Interior",
+    services_card_6: "Elegant Staircase Finish",
+
+    // New Gallery Keys
+    gallery_comm_ext_paint_inst: "Commercial exterior painting installation",
+    gallery_comm_ext_paint: "Commercial exterior painting",
+    gallery_res_ext_paint_inst: "Premium Exterior Finish",
+    gallery_ext_res_paint_inst: "Modern Home Painting",
+    gallery_ext_paint_inst: "White Exterior Coating",
+    gallery_ext_paint: "Exterior House Painting",
+    gallery_lam_floor_inst: "Laminate Flooring Installation",
+    gallery_int_paint: "Interior painting",
+    gallery_tile_inst: "Tile installation",
+    gallery_drywall_inst: "Drywall installation and insulation",
+
+    // Reviews
+    reviews_title: "Our <span class='blue-text'>Reviews</span>",
+    reviews_subtitle: "See what our clients say about our work.",
+    review_1: '"Excellent work on our new flooring. The team was professional and finished on time. Highly recommended!"',
+    review_2: '"They painted the exterior of our commercial building and it looks brand new. Great attention to detail."',
+    review_3: '"Outstanding ceramic tile installation in our kitchen. The precision and quality are top-notch."',
 
     // Contact
-    contact_title: "Contact <span class='gold-text'>and Location</span>",
-    contact_subtitle: "Ready to start your project? Contact us today for a free consultation and estimate.",
+    contact_title: "Contact <span class='blue-text'>and Location</span>",
+    contact_subtitle: "Ready to start your construction project? Contact us today.",
     contact_info: "Contact Information",
     contact_phone: "Phone",
     contact_email: "Email",
     contact_address: "Address",
     contact_hours: "Hours",
-    contact_hours_value: "3311 RITTER ST RICHMOND VA 23234",
+    contact_hours_value: "Always available to serve you",
     contact_payment: "Payment Methods",
     contact_follow: "Follow Us",
     contact_find: "Find Us",
@@ -147,19 +152,16 @@ const translations = {
     nav_contact: "Contacto",
 
     // Hero
-    hero_title: "Construimos más que estructuras, <span class='gold-text'>construimos sueños</span>",
-    hero_subtitle:
-      "Calidad que perdura, confianza que construye. Tu visión, nuestra misión. Donde otros ven planos, nosotros vemos el futuro.",
+    hero_title: "Construimos más que estructuras, <span class='blue-text'>construimos sueños</span>",
+    hero_subtitle: "Calidad que perdura, confianza que construye. Tu visión, nuestra misión. Como empresa constructora de primer nivel, damos vida a tus proyectos.",
     hero_btn_estimate: "Presupuestos Gratis",
     hero_btn_services: "Nuestros Servicios",
 
     // About
-    about_title: "Sobre <span class='gold-text'>Nosotros</span>",
+    about_title: "Sobre <span class='blue-text'>Nosotros</span>",
     about_history: "Nuestra Historia",
-    about_p1:
-      "En OA BUILD-OUT CONTRACTORS LLC, nos dedicamos a transformar espacios y crear hogares de ensueño. Nuestra pasión por la construcción y compromiso con la excelencia nos ha posicionado como líderes en la industria. Sirviendo el área metropolitana de Houston incluyendo Sugar Land, Missouri City, Stafford y Fort Bend County.",
-    about_p2:
-      "Ofrecemos servicios completos de construcción y remodelación, desde el diseño inicial hasta la finalización del proyecto. Nuestro equipo de profesionales altamente capacitados trabaja con dedicación y atención al detalle para garantizar resultados excepcionales en cada proyecto.",
+    about_p1: "En OA BUILD-OUT CONTRACTORS LLC, somos una empresa constructora dedicada a transformar espacios y ejecutar proyectos residenciales y comerciales de primer nivel. Sirviendo el área metropolitana de Houston incluyendo Sugar Land, Missouri City, Stafford y Fort Bend County.",
+    about_p2: "Ofrecemos servicios completos de construcción, enfocándonos en acabados de alta calidad e integridad estructural. Nuestro equipo de profesionales altamente capacitados trabaja con dedicación y atención al detalle para garantizar resultados excepcionales.",
     about_languages: "Idiomas",
     about_languages_spoken: "Español e Inglés",
     about_payment: "Métodos de Pago",
@@ -172,101 +174,106 @@ const translations = {
     about_trust: "Confianza",
 
     // Services
-    services_title: "Nuestros <span class='gold-text'>Servicios</span>",
-    services_subtitle: "Ofrecemos una amplia gama de servicios de construcción para satisfacer todas sus necesidades.",
-    services_framing: "Estructuras",
-    services_decks: "Terrazas",
-    services_siding: "Revestimientos",
-    services_windows: "Ventanas",
-    services_roofing: "Techos",
-    services_construction: "Construcción",
-    services_framing_desc:
-      "Estructuras sólidas y precisas que forman la base de su proyecto. Construimos con seguridad y durabilidad.",
-    services_decks_desc:
-      "Espacios exteriores personalizados que combinan estilo, funcionalidad y durabilidad para el disfrute al aire libre.",
-    services_siding_desc:
-      "Revestimientos que protegen y embellecen su hogar, ofreciendo resistencia a la intemperie y bajo mantenimiento.",
-    services_windows_desc:
-      "Ventanas de alta eficiencia que mejoran la iluminación, el aislamiento y la estética de su hogar.",
-    services_construction_desc:
-      "Servicios completos de construcción con atención al detalle y compromiso con la calidad.",
-    services_roofing_desc:
-      "Techos duraderos y eficientes que protegen su inversión y mejoran la eficiencia energética de su hogar.",
+    services_title: "Nuestros <span class='blue-text'>Servicios</span>",
+    services_subtitle: "Ofrecemos servicios especializados de construcción y acabados.",
+    services_laminate_painting: "Pintura de Casa Exterior",
+    services_psyren_painting: "Acabado de Drywall",
+    services_commercial_exterior: "Pintura Interior Blanca",
+    services_residential_exterior: "Recubrimiento Exterior Blanco",
+    services_ceramic: "Experto en Piso Laminado",
+    services_laminate: "Pisos de Pasillos Exclusivos",
+
+    // Service Descs
+    services_laminate_painting_desc: "Especializados en pintar casas hermosas con acabados de alta calidad y elegantes exteriores blancos.",
+    services_psyren_painting_desc: "Soluciones de pintura modernas que realzan la belleza arquitectónica y el atractivo visual de su residencia.",
+    services_commercial_exterior_desc: "Pintura exterior profesional aplicada meticulosamente para darle a su casa un aspecto premium y nuevo.",
+    services_residential_exterior_desc: "Recubrimiento blanco brillante y duradero diseñado para proteger su hogar mientras lo mantiene impresionante.",
+    services_ceramic_desc: "Instalación de pisos laminados de alta calidad para un interior duradero, elegante y de bajo mantenimiento.",
+    services_laminate_desc: "Instalación de precisión de pisos laminados para pasillos y áreas de mucho tráfico en casas de lujo.",
     services_request: "Solicitar Presupuesto Gratis",
 
+    // New Service Detail Card Descriptions (specifically for the cards)
+    card_drywall_desc: "Instalación experta de drywall y acabados estructurales, proporcionando la base perfecta para cualquier pared interior.",
+    card_tile_desc: "Instalación de laminado de alta precisión en espacios interiores, creando un suelo uniforme y duradero.",
+    card_ceramic_desc: "Trabajo especializado en pisos laminados enfocándose en la estética moderna y durabilidad para su hogar.",
+    card_ext_paint_desc: "Pintura exterior duradera que protege su hogar de la intemperie mientras le da un aspecto fresco y limpio.",
+    card_int_paint_desc: "Hermosa pintura interior en blanco que ilumina su hogar, creando una atmósfera limpia y espaciosa.",
+    card_premium_int_desc: "Pintura interior profesional para casas de varios niveles, incluyendo escaleras y pasillos con un acabado impecable.",
+
     // Service Detailed Descriptions
-    service_framing_title: "Estructuras",
-    service_framing_p1:
-      "Nos especializamos en estructuras de alta precisión, proporcionando la base sólida que su proyecto necesita para crecer con seguridad, eficiencia y durabilidad. En cada corte, clavo y medida, construimos confianza.",
-    service_framing_p2:
-      "El encuadre no es solo el esqueleto de una construcción, es el corazón que sostiene cada plan, cada idea y cada sueño. Nuestro compromiso es proporcionar estructuras resistentes y exactas hechas para durar.",
-    service_framing_p3:
-      "Desde el primer clavo hasta el último panel, nuestro equipo de estructuras transforma los planos en estructuras reales, sólidas y seguras. Trabajamos con pasión, precisión y profesionalismo para garantizar que su proyecto se construya sobre una base impecable.",
+    service_laminate_painting_title: "Pintura de Casa Exterior",
+    service_laminate_painting_p1: "Nos especializamos en pintar hermosas casas blancas, comunes en los EE. UU., brindando un aspecto limpio y elegante que destaca en cualquier vecindario.",
+    service_laminate_painting_p2: "Nuestra pintura exterior de alta calidad garantiza que su hogar se mantenga impresionante y protegido contra los elementos por muchos años.",
 
-    service_decks_title: "Terrazas",
-    service_decks_p1:
-      "Transformamos su espacio exterior en un lugar para reunirse, relajarse y disfrutar con estilo. Nuestras terrazas combinan diseño, durabilidad y acabados impecables para que pueda disfrutar de cada rincón de su hogar al aire libre.",
-    service_decks_p2:
-      "Construimos terrazas personalizadas que no solo embellecen su propiedad, sino que también agregan valor, funcionalidad y calidez a su estilo de vida. Diseñamos pensando en la comodidad, la estética y la resistencia al paso del tiempo.",
-    service_decks_p3:
-      "Una buena terraza no solo se construye, se diseña para ser vivida. Con materiales de alta calidad y mano de obra experta, creamos espacios exteriores duraderos que invitan a compartir, relajarse y disfrutar al máximo.",
+    service_psyren_painting_title: "Acabado de Drywall",
+    service_psyren_painting_p1: "Instalación experta de drywall y acabados estructurales, proporcionando la base perfecta para cualquier pared interior.",
+    service_psyren_painting_p2: "Garantizamos integridad estructural y una superficie perfectamente lisa para un acabado de pintura impecable o texturizado.",
 
-    service_siding_title: "Revestimiento",
-    service_siding_p1:
-      "Protegemos lo más importante: su hogar. Nuestro servicio de revestimiento no solo mejora la apariencia de su casa, sino que también garantiza una barrera eficiente contra el clima, la humedad y el paso del tiempo. Estilo y resistencia en cada panel.",
-    service_siding_p2:
-      "El revestimiento es mucho más que una cubierta; es una inversión en durabilidad, eficiencia y belleza. Con materiales de alta calidad e instalación precisa, transformamos su fachada en una declaración de estilo y protección.",
-    service_siding_p3:
-      "Cada hogar tiene una historia que contar desde el exterior. Con nuestro servicio de revestimiento, nos aseguramos de que esa primera impresión sea impecable, moderna y duradera. Porque cada detalle importa, comenzamos desde el exterior hacia adentro.",
-    service_siding_p4:
-      "Ofrecemos soluciones de revestimiento que combinan estética, resistencia y bajo mantenimiento. Ya sea que busque renovar su hogar o proteger una nueva construcción, tenemos la opción ideal para cada estilo y necesidad.",
+    service_commercial_exterior_title: "Pintura Interior Blanca",
+    service_commercial_exterior_p1: "Transforme su hogar con nuestros servicios de pintura interior en blanco puro y brillante. Creamos una atmósfera limpia y luminosa en cada habitación.",
+    service_commercial_exterior_p2: "Nuestros pintores profesionales utilizan acabados premium para asegurar que las paredes, techos y molduras luzcan absolutamente modernos.",
 
-    service_windows_title: "Ventanas",
-    service_windows_p1:
-      "Nuestras ventanas no solo iluminan su hogar, sino que también lo protegen. Diseñadas para ofrecer aislamiento térmico, eficiencia energética y elegancia, nuestras soluciones de ventanas proporcionan comodidad, ahorro y estilo en cada rincón.",
-    service_windows_p2:
-      "Reemplazar sus ventanas es más que una mejora estética: es una inversión en eficiencia, seguridad y bienestar. Con tecnología de alto rendimiento, materiales duraderos y acabados personalizados, transformamos su hogar desde adentro hacia afuera.",
-    service_windows_p3:
-      "Creamos espacios llenos de luz, comodidad y tranquilidad. Nuestro servicio de instalación de ventanas ofrece soluciones personalizadas que combinan diseño moderno, eficiencia energética y resistencia a la intemperie.",
-    service_windows_p4:
-      "Instalar nuevas ventanas es renovar la forma en que su hogar respira, se ilumina y se protege. Ofrecemos sistemas innovadores que mejoran la eficiencia energética, reducen el ruido exterior y aumentan el valor de su propiedad.",
+    service_residential_exterior_title: "Recubrimiento Exterior Blanco",
+    service_residential_exterior_p1: "Recubrimiento y pintura especializada para casas blancas, brindando una apariencia exterior brillante, limpia y profesional que luce increíble.",
+    service_residential_exterior_p2: "Protegemos su inversión con materiales resistentes al clima que mantienen el color blanco vibrante y resistente al paso del tiempo.",
 
-    service_roofing_title: "Techos",
-    service_roofing_p1:
-      "Un techo de calidad no solo protege su hogar, lo define. Nuestro servicio de techado combina materiales premium, instalación profesional y atención a cada detalle para brindarle tranquilidad, eficiencia y estética impecable.",
-    service_roofing_p2:
-      "Su techo es la primera línea de defensa contra el clima. Por eso, en cada proyecto de techado, ofrecemos soluciones resistentes y duraderas adaptadas a las condiciones más exigentes. Seguridad, eficiencia y estilo, todo en una estructura.",
-    service_roofing_p3:
-      "Cada techo que instalamos está diseñado para durar, resistir y embellecer. Utilizamos tecnología avanzada y materiales certificados para garantizar que su inversión esté protegida durante décadas.",
-    service_roofing_p4:
-      "El techado no es solo una necesidad, es una oportunidad para elevar el valor, la eficiencia y la apariencia de su propiedad. Ya sea una nueva instalación o un reemplazo, trabajamos con precisión y compromiso en cada capa.",
-    service_roofing_p5:
-      "Sabemos que un buen techo no se nota, se siente. Nuestro equipo especializado en techos ofrece soluciones que aíslan, protegen y mejoran la comodidad del hogar, sin comprometer el diseño.",
+    service_ceramic_title: "Experto en Piso Laminado",
+    service_ceramic_p1: "Instalación de laminado de alta precisión en espacios interiores, creando un suelo uniforme y duradero que realza cualquier habitación.",
+    service_ceramic_p2: "Aseguramos una nivelación adecuada para proporcionar una superficie estable, silenciosa y hermosa que dure décadas.",
+
+    service_laminate_title: "Pisos de Pasillos Exclusivos",
+    service_laminate_p1: "Instalación experta de pisos laminados específicamente diseñada para pasillos y corredores en propiedades residenciales de alta gama.",
+    service_laminate_p2: "Transforme las transiciones de su hogar con un acabado impecable y resistente al alto tráfico que conecte sus espacios con un estilo inigualable.",
 
     // Gallery
-    gallery_title: "Nuestra <span class='gold-text'>Galería</span>",
-    gallery_subtitle:
-      "Explore algunos de nuestros proyectos recientes que muestran nuestra experiencia y calidad de trabajo.",
+    gallery_title: "Nuestra <span class='blue-text'>Galería</span>",
+    gallery_subtitle: "Explore algunos de nuestros recientes proyectos de construcción y acabados.",
     gallery_all: "Todos",
-    gallery_residential_framing: "Estructura Residencial",
-    gallery_custom_deck: "Terraza Personalizada",
-    gallery_modern_siding: "Revestimiento Moderno",
-    gallery_efficient_windows: "Ventanas Eficientes",
-    gallery_residential_roof: "Techo Residencial",
-    gallery_commercial_framing: "Estructura Comercial",
-    gallery_deck_pergola: "Terraza",
-    gallery_classic_siding: "Revestimiento Clásico",
-    gallery_location: "Richmond, VA",
+    gallery_laminate_painting: "Piso laminado y pintura",
+    gallery_psyren_painting: "Psyren y pintura",
+    gallery_commercial_exterior: "Pintura exterior comercial",
+    gallery_residential_exterior: "Pintura exterior",
+    gallery_ceramic: "Cerámica",
+    gallery_laminate: "Piso laminado",
+    gallery_location: "Houston, TX",
+    gallery_concrete: "Trabajo de Concreto",
+
+    // New Services Card Keys
+    services_card_1: "Acabado Profesional de Drywall",
+    services_card_2: "Piso Laminado Interior Maestro",
+    services_card_3: "Diseño Moderno de Laminado",
+    services_card_4: "Pintura Exterior de Calidad",
+    services_card_5: "Interior en Blanco Puro",
+    services_card_6: "Acabado de Escalera Elegante",
+
+    // New Gallery Keys
+    gallery_comm_ext_paint_inst: "Instalación de pintura exterior comercial",
+    gallery_comm_ext_paint: "Pintura exterior comercial",
+    gallery_res_ext_paint_inst: "Acabado Exterior Premium",
+    gallery_ext_res_paint_inst: "Pintura de Hogar Moderno",
+    gallery_ext_paint_inst: "Recubrimiento Exterior Blanco",
+    gallery_ext_paint: "Pintura de Casa Exterior",
+    gallery_lam_floor_inst: "Instalación de Piso Laminado",
+    gallery_int_paint: "Pintura interior",
+    gallery_tile_inst: "Instalación de azulejos",
+    gallery_drywall_inst: "Instalación de drywall y aislamiento",
+
+    // Reviews
+    reviews_title: "Nuestras <span class='blue-text'>Reseñas</span>",
+    reviews_subtitle: "Vea lo que dicen nuestros clientes sobre nuestro trabajo.",
+    review_1: '"Excelente trabajo en nuestro nuevo piso. El equipo fue muy profesional y terminó a tiempo. ¡Altamente recomendados!"',
+    review_2: '"Pintaron el exterior de nuestro edificio comercial y quedó como nuevo. Gran atención al detalle."',
+    review_3: '"Excepcional instalación de cerámica en nuestra cocina. La precisión y calidad son de primera."',
 
     // Contact
-    contact_title: "Contacto <span class='gold-text'>y Ubicación</span>",
-    contact_subtitle: "¿Listo para comenzar su proyecto? Contáctenos hoy para una consulta y presupuesto gratuitos.",
+    contact_title: "Contacto <span class='blue-text'>y Ubicación</span>",
+    contact_subtitle: "¿Listo para comenzar su proyecto de construcción? Contáctenos hoy.",
     contact_info: "Información de Contacto",
     contact_phone: "Teléfono",
     contact_email: "Correo",
     contact_address: "Dirección",
     contact_hours: "Horario",
-    contact_hours_value: "3311 RITTER ST RICHMOND VA 23234",
+    contact_hours_value: "Siempre disponibles para servirle",
     contact_payment: "Métodos de Pago",
     contact_follow: "Síguenos",
     contact_find: "Encuéntranos",
@@ -278,8 +285,8 @@ const translations = {
     // Footer
     footer_slogan: "Construimos más que estructuras, construimos sueños",
     footer_rights: "Todos los derechos reservados.",
-  },
-}
+  }
+};
 
 // Función para cambiar el idioma
 function changeLanguage(lang) {
@@ -290,36 +297,41 @@ function changeLanguage(lang) {
   document.querySelectorAll(".language-btn").forEach((btn) => {
     btn.classList.remove("active")
   })
-  document.querySelector(`.language-btn[data-lang="${lang}"]`).classList.add("active")
+  document.querySelectorAll(`.language-btn[data-lang="${lang}"]`).forEach(btn => btn.classList.add("active"))
 
   // Actualizar textos de navegación
   document.querySelectorAll(".nav-link").forEach((link, index) => {
     const keys = ["nav_home", "nav_about", "nav_services", "nav_gallery", "nav_contact"]
-    if (index < keys.length) {
-      link.textContent = translations[lang][keys[index]]
+    if (translations[lang][keys[index % keys.length]]) {
+      link.textContent = translations[lang][keys[index % keys.length]]
     }
   })
 
   // Hero Section
-  document.querySelector(".hero-text h1").innerHTML = translations[lang].hero_title
-  document.querySelector(".hero-text p").textContent = translations[lang].hero_subtitle
-  document.querySelector(".hero-buttons .btn-primary").innerHTML =
-    `${translations[lang].hero_btn_estimate} <span class="icon-right">&#8250;</span>`
-  document.querySelector(".hero-buttons .btn-secondary").textContent = translations[lang].hero_btn_services
+  if (document.querySelector(".hero-text h1")) document.querySelector(".hero-text h1").innerHTML = translations[lang].hero_title
+  if (document.querySelector(".hero-text p")) document.querySelector(".hero-text p").textContent = translations[lang].hero_subtitle
+  if (document.querySelector(".hero-buttons .btn-primary")) {
+    document.querySelector(".hero-buttons .btn-primary").innerHTML =
+      `${translations[lang].hero_btn_estimate} <span class="icon-right">&#8250;</span>`
+  }
+  if (document.querySelector(".hero-buttons .btn-secondary")) document.querySelector(".hero-buttons .btn-secondary").textContent = translations[lang].hero_btn_services
 
   // About Section
-  document.querySelector("#about .section-header h2").innerHTML = translations[lang].about_title
-  document.querySelector(".about-text h3").textContent = translations[lang].about_history
+  if (document.querySelector("#about .section-header h2")) document.querySelector("#about .section-header h2").innerHTML = translations[lang].about_title
+  if (document.querySelector(".about-text h3")) document.querySelector(".about-text h3").textContent = translations[lang].about_history
+
   const aboutParagraphs = document.querySelectorAll(".about-text > p")
   if (aboutParagraphs.length >= 2) {
     aboutParagraphs[0].textContent = translations[lang].about_p1
     aboutParagraphs[1].textContent = translations[lang].about_p2
   }
 
-  document.querySelector(".language h4").textContent = translations[lang].about_languages
-  document.querySelector(".language p").innerHTML =
-    `<i class="fas fa-language"></i> ${translations[lang].about_languages_spoken}`
-  document.querySelector(".payment h4").textContent = translations[lang].about_payment
+  if (document.querySelector(".language h4")) document.querySelector(".language h4").textContent = translations[lang].about_languages
+  if (document.querySelector(".language p")) {
+    document.querySelector(".language p").innerHTML =
+      `<i class="fas fa-language"></i> ${translations[lang].about_languages_spoken}`
+  }
+  if (document.querySelector(".payment h4")) document.querySelector(".payment h4").textContent = translations[lang].about_payment
 
   // Payment methods
   const paymentMethods = document.querySelectorAll(".payment-methods span")
@@ -338,12 +350,19 @@ function changeLanguage(lang) {
   })
 
   // Services Section
-  document.querySelector("#services .section-header h2").innerHTML = translations[lang].services_title
-  document.querySelector("#services .section-header p").textContent = translations[lang].services_subtitle
+  if (document.querySelector("#services .section-header h2")) document.querySelector("#services .section-header h2").innerHTML = translations[lang].services_title
+  if (document.querySelector("#services .section-header p")) document.querySelector("#services .section-header p").textContent = translations[lang].services_subtitle
 
   // Tabs
   const tabButtons = document.querySelectorAll(".tab-btn")
-  const tabKeys = ["services_framing", "services_decks", "services_siding", "services_windows", "services_roofing"]
+  const tabKeys = [
+    "services_laminate_painting",
+    "services_psyren_painting",
+    "services_commercial_exterior",
+    "services_residential_exterior",
+    "services_ceramic",
+    "services_laminate"
+  ]
   tabButtons.forEach((btn, index) => {
     if (index < tabKeys.length) {
       btn.textContent = translations[lang][tabKeys[index]]
@@ -352,7 +371,14 @@ function changeLanguage(lang) {
 
   // Tab content titles and paragraphs
   const tabPanes = document.querySelectorAll(".tab-pane")
-  const serviceIds = ["framing", "decks", "siding", "windows", "roofing"]
+  const serviceIds = [
+    "laminate_painting",
+    "psyren_painting",
+    "commercial_exterior",
+    "residential_exterior",
+    "ceramic",
+    "laminate"
+  ]
 
   tabPanes.forEach((pane, index) => {
     if (index < serviceIds.length) {
@@ -369,8 +395,10 @@ function changeLanguage(lang) {
       const paragraphs = pane.querySelectorAll(".service-text p")
       paragraphs.forEach((p, pIndex) => {
         const paragraphKey = `service_${serviceId}_p${pIndex + 1}`
-        if (translations[lang][paragraphKey]) {
+        if (translations[lang] && translations[lang][paragraphKey]) {
           p.textContent = translations[lang][paragraphKey]
+        } else {
+          p.textContent = ""; // clear unused
         }
       })
     }
@@ -378,21 +406,14 @@ function changeLanguage(lang) {
 
   // Service Cards
   const serviceCards = document.querySelectorAll(".service-card")
-  const serviceKeys = [
-    "services_framing",
-    "services_decks",
-    "services_siding",
-    "services_windows",
-    "services_construction",
-    "services_roofing",
-  ]
+  const serviceKeys = ["services_card_1", "services_card_2", "services_card_3", "services_card_4", "services_card_5", "services_card_6"];
   const serviceDescKeys = [
-    "services_framing_desc",
-    "services_decks_desc",
-    "services_siding_desc",
-    "services_windows_desc",
-    "services_construction_desc",
-    "services_roofing_desc",
+    "card_drywall_desc",
+    "card_tile_desc",
+    "card_ceramic_desc",
+    "card_ext_paint_desc",
+    "card_int_paint_desc",
+    "card_premium_int_desc"
   ]
 
   serviceCards.forEach((card, index) => {
@@ -402,46 +423,53 @@ function changeLanguage(lang) {
     }
   })
 
-  document.querySelector("#services .btn-primary").innerHTML =
-    `${translations[lang].services_request} <span class="icon-right">&#8250;</span>`
+  if (document.querySelector("#services .btn-primary")) {
+    document.querySelector("#services .btn-primary").innerHTML =
+      `${translations[lang].services_request} <span class="icon-right">&#8250;</span>`
+  }
 
   // Gallery Section
-  document.querySelector("#gallery .section-header h2").innerHTML = translations[lang].gallery_title
-  document.querySelector("#gallery .section-header p").textContent = translations[lang].gallery_subtitle
+  if (document.querySelector("#gallery .section-header h2")) document.querySelector("#gallery .section-header h2").innerHTML = translations[lang].gallery_title
+  if (document.querySelector("#gallery .section-header p")) document.querySelector("#gallery .section-header p").textContent = translations[lang].gallery_subtitle
 
   // Gallery filter buttons
   const filterButtons = document.querySelectorAll(".filter-btn")
-  filterButtons[0].textContent = translations[lang].gallery_all
-  for (let i = 1; i < filterButtons.length; i++) {
-    const category = filterButtons[i].getAttribute("data-filter")
-    filterButtons[i].textContent = translations[lang][`services_${category}`]
+  if (filterButtons.length > 0) {
+    filterButtons[0].textContent = translations[lang].gallery_all
+    for (let i = 1; i < filterButtons.length; i++) {
+      const category = filterButtons[i].getAttribute("data-filter")
+      if (translations[lang][`gallery_${category}`]) {
+        filterButtons[i].textContent = translations[lang][`gallery_${category}`]
+      }
+    }
   }
 
-  // Gallery items
+  // Gallery items - Use titles directly
   const galleryItems = document.querySelectorAll(".gallery-item")
-  const galleryTitles = [
-    "gallery_residential_framing",
-    "gallery_custom_deck",
-    "gallery_modern_siding",
-    "gallery_efficient_windows",
-    "gallery_residential_roof",
-    "gallery_commercial_framing",
-    "gallery_deck_pergola",
-    "gallery_classic_siding",
-  ]
 
-  galleryItems.forEach((item, index) => {
-    if (index < galleryTitles.length) {
-      item.querySelector("h3").textContent = translations[lang][galleryTitles[index]]
-      item.querySelector("p").textContent = translations[lang].gallery_location
+  galleryItems.forEach((item) => {
+    const category = item.getAttribute("data-category");
+    if (category && translations[lang][`gallery_${category}`]) {
+      item.querySelector("h3").textContent = translations[lang][`gallery_${category}`];
     }
-  })
+  });
+
+  // Reviews Section
+  if (document.querySelector("#reviews .section-header h2")) document.querySelector("#reviews .section-header h2").innerHTML = translations[lang].reviews_title;
+  if (document.querySelector("#reviews .section-header p")) document.querySelector("#reviews .section-header p").textContent = translations[lang].reviews_subtitle;
+
+  const reviewParagraphs = document.querySelectorAll(".review-card p");
+  if (reviewParagraphs.length >= 3) {
+    reviewParagraphs[0].textContent = translations[lang].review_1;
+    reviewParagraphs[1].textContent = translations[lang].review_2;
+    reviewParagraphs[2].textContent = translations[lang].review_3;
+  }
 
   // Contact Section
-  document.querySelector("#contact .section-header h2").innerHTML = translations[lang].contact_title
-  document.querySelector("#contact .section-header p").textContent = translations[lang].contact_subtitle
+  if (document.querySelector("#contact .section-header h2")) document.querySelector("#contact .section-header h2").innerHTML = translations[lang].contact_title
+  if (document.querySelector("#contact .section-header p")) document.querySelector("#contact .section-header p").textContent = translations[lang].contact_subtitle
 
-  document.querySelector(".contact-info > h3").textContent = translations[lang].contact_info
+  if (document.querySelector(".contact-info > h3")) document.querySelector(".contact-info > h3").textContent = translations[lang].contact_info
 
   const contactLabels = document.querySelectorAll(".contact-item h4")
   const contactKeys = ["contact_phone", "contact_email", "contact_address", "contact_hours"]
@@ -458,7 +486,9 @@ function changeLanguage(lang) {
   }
 
   // Payment methods in contact section
-  document.querySelector(".contact-info h3:nth-of-type(2)").textContent = translations[lang].contact_payment
+  const contactPaymentHeading = document.querySelectorAll(".contact-info h3");
+  if (contactPaymentHeading.length >= 2) contactPaymentHeading[1].textContent = translations[lang].contact_payment;
+
   const paymentMethodsLarge = document.querySelectorAll(".payment-method span")
   if (paymentMethodsLarge.length >= 3) {
     paymentMethodsLarge[0].textContent = translations[lang].about_cash
@@ -466,194 +496,20 @@ function changeLanguage(lang) {
     paymentMethodsLarge[2].textContent = translations[lang].about_zelle
   }
 
-  document.querySelector(".contact-info h3:nth-of-type(3)").textContent = translations[lang].contact_follow
-  document.querySelector(".map-container h3").textContent = translations[lang].contact_find
+  if (contactPaymentHeading.length >= 3) contactPaymentHeading[2].textContent = translations[lang].contact_follow;
+  if (document.querySelector(".map-container h3")) document.querySelector(".map-container h3").textContent = translations[lang].contact_find
 
   // Estimate Banner
-  document.querySelector(".estimate-content h2").textContent = translations[lang].estimate_title
-  document.querySelector(".estimate-content p").textContent = translations[lang].estimate_subtitle
+  if (document.querySelector(".estimate-content h2")) document.querySelector(".estimate-content h2").textContent = translations[lang].estimate_title
+  if (document.querySelector(".estimate-content p")) document.querySelector(".estimate-content p").textContent = translations[lang].estimate_subtitle
 
   // Footer
-  document.querySelector(".footer-logo p").textContent = translations[lang].footer_slogan
+  if (document.querySelector(".footer-logo p")) document.querySelector(".footer-logo p").textContent = translations[lang].footer_slogan
   const footerCopyright = document.querySelector(".footer-copyright p")
-  const year = footerCopyright.querySelector("#currentYear")
-    ? document.getElementById("currentYear").textContent
-    : new Date().getFullYear()
-  footerCopyright.innerHTML = `&copy; <span id="currentYear">${year}</span> OA BUILD-OUT CONTRACTORS LLC. ${translations[lang].footer_rights}`
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  // Get language buttons
-  const languageBtns = document.querySelectorAll(".language-btn")
-  
-  // Load saved language preference on page load
-  const savedLanguage = localStorage.getItem("preferredLanguage") || "en"
-  changeLanguage(savedLanguage)
-
-  // Service text translations
-  const serviceTranslations = {
-    en: {
-      // Framing
-      framing: {
-        title: "Framing",
-        p1: "We specialize in high-precision structural framing, providing the solid foundation your project needs to grow with safety, efficiency, and durability. In every cut, nail, and measurement, we build trust.",
-        p2: "Framing is not just the skeleton of a construction, it's the heart that supports every plan, every idea, and every dream. Our commitment is to provide resistant, exact structures made to last.",
-        p3: "From the first nail to the last panel, our framing team transforms blueprints into real, solid, and safe structures. We work with passion, precision, and professionalism to ensure your project is built on an impeccable foundation.",
-      },
-      // Decks
-      decks: {
-        title: "Decks",
-        p1: "We transform your outdoor space into a place for gathering, relaxation, and style. Our decks combine design, durability, and impeccable finishes so you can enjoy every corner of your outdoor home.",
-        p2: "We build custom decks that not only beautify your property but also add value, functionality, and warmth to your lifestyle. We design with comfort, aesthetics, and resistance to the passage of time in mind.",
-        p3: "A good deck is not just built, it's designed to be lived in. With high-quality materials and expert craftsmanship, we create durable outdoor spaces that invite sharing, relaxation, and maximum enjoyment.",
-      },
-      // Siding
-      siding: {
-        title: "Siding",
-        p1: "We protect what's most important: your home. Our siding service not only improves the appearance of your home but also guarantees an efficient barrier against weather, moisture, and the passage of time. Style and resistance in every panel.",
-        p2: "Siding is much more than a covering; it's an investment in durability, efficiency, and beauty. With high-quality materials and precise installation, we transform your facade into a statement of style and protection.",
-        p3: "Every home has a story to tell from the outside. With our siding service, we ensure that first impression is impeccable, modern, and lasting. Because every detail matters, we start from the outside in.",
-        p4: "We offer siding solutions that combine aesthetics, resistance, and low maintenance. Whether you're looking to renovate your home or protect a new construction, we have the ideal option for every style and need.",
-      },
-      // Windows
-      windows: {
-        title: "Windows",
-        p1: "Our windows not only illuminate your home but also protect it. Designed to offer thermal insulation, energy efficiency, and elegance, our window solutions provide comfort, savings, and style in every corner.",
-        p2: "Replacing your windows is more than an aesthetic improvement: it's an investment in efficiency, security, and well-being. With high-performance technology, durable materials, and custom finishes, we transform your home from the inside out.",
-        p3: "We create spaces full of light, comfort, and tranquility. Our window installation service offers customized solutions that combine modern design, energy efficiency, and weather resistance.",
-        p4: "Installing new windows is renewing the way your home breathes, illuminates, and protects itself. We offer innovative systems that improve energy efficiency, reduce outside noise, and increase the value of your property.",
-      },
-      // Roofing
-      roofing: {
-        title: "Roofing",
-        p1: "A quality roof not only protects your home, it defines it. Our roofing service combines premium materials, professional installation, and attention to every detail to provide you with peace of mind, efficiency, and impeccable aesthetics.",
-        p2: "Your roof is the first line of defense against the weather. That's why, in every roofing project, we offer resistant, durable solutions adapted to the most demanding conditions. Safety, efficiency, and style, all in one structure.",
-        p3: "Every roof we install is designed to last, resist, and beautify. We use advanced technology and certified materials to ensure your investment is protected for decades.",
-        p4: "Roofing is not just a necessity, it's an opportunity to elevate the value, efficiency, and appearance of your property. Whether it's a new installation or replacement, we work with precision and commitment in every layer.",
-        p5: "We know that a good roof is not noticed, but felt. Our specialized roofing team offers solutions that insulate, protect, and improve home comfort, without compromising design.",
-      },
-    },
-    es: {
-      // Framing
-      framing: {
-        title: "Estructuras",
-        p1: "Nos especializamos en estructuras de alta precisión, proporcionando la base sólida que su proyecto necesita para crecer con seguridad, eficiencia y durabilidad. En cada corte, clavo y medida, construimos confianza.",
-        p2: "El encuadre no es solo el esqueleto de una construcción, es el corazón que sostiene cada plan, cada idea y cada sueño. Nuestro compromiso es proporcionar estructuras resistentes y exactas hechas para durar.",
-        p3: "Desde el primer clavo hasta el último panel, nuestro equipo de estructuras transforma los planos en estructuras reales, sólidas y seguras. Trabajamos con pasión, precisión y profesionalismo para garantizar que su proyecto se construya sobre una base impecable.",
-      },
-      // Decks
-      decks: {
-        title: "Terrazas",
-        p1: "Transformamos su espacio exterior en un lugar para reunirse, relajarse y disfrutar con estilo. Nuestras terrazas combinan diseño, durabilidad y acabados impecables para que pueda disfrutar de cada rincón de su hogar al aire libre.",
-        p2: "Construimos terrazas personalizadas que no solo embellecen su propiedad, sino que también agregan valor, funcionalidad y calidez a su estilo de vida. Diseñamos pensando en la comodidad, la estética y la resistencia al paso del tiempo.",
-        p3: "Una buena terraza no solo se construye, se diseña para ser vivida. Con materiales de alta calidad y mano de obra experta, creamos espacios exteriores duraderos que invitan a compartir, relajarse y disfrutar al máximo.",
-      },
-      // Siding
-      siding: {
-        title: "Revestimiento",
-        p1: "Protegemos lo más importante: su hogar. Nuestro servicio de revestimiento no solo mejora la apariencia de su casa, sino que también garantiza una barrera eficiente contra el clima, la humedad y el paso del tiempo. Estilo y resistencia en cada panel.",
-        p2: "El revestimiento es mucho más que una cubierta; es una inversión en durabilidad, eficiencia y belleza. Con materiales de alta calidad e instalación precisa, transformamos su fachada en una declaración de estilo y protección.",
-        p3: "Cada hogar tiene una historia que contar desde el exterior. Con nuestro servicio de revestimiento, nos aseguramos de que esa primera impresión sea impecable, moderna y duradera. Porque cada detalle importa, comenzamos desde el exterior hacia adentro.",
-        p4: "Ofrecemos soluciones de revestimiento que combinan estética, resistencia y bajo mantenimiento. Ya sea que busque renovar su hogar o proteger una nueva construcción, tenemos la opción ideal para cada estilo y necesidad.",
-      },
-      // Windows
-      windows: {
-        title: "Ventanas",
-        p1: "Nuestras ventanas no solo iluminan su hogar, sino que también lo protegen. Diseñadas para ofrecer aislamiento térmico, eficiencia energética y elegancia, nuestras soluciones de ventanas proporcionan comodidad, ahorro y estilo en cada rincón.",
-        p2: "Reemplazar sus ventanas es más que una mejora estética: es una inversión en eficiencia, seguridad y bienestar. Con tecnología de alto rendimiento, materiales duraderos y acabados personalizados, transformamos su hogar desde adentro hacia afuera.",
-        p3: "Creamos espacios llenos de luz, comodidad y tranquilidad. Nuestro servicio de instalación de ventanas ofrece soluciones personalizadas que combinan diseño moderno, eficiencia energética y resistencia a la intemperie.",
-        p4: "Instalar nuevas ventanas es renovar la forma en que su hogar respira, se ilumina y se protege. Ofrecemos sistemas innovadores que mejoran la eficiencia energética, reducen el ruido exterior y aumentan el valor de su propiedad.",
-      },
-      // Roofing
-      roofing: {
-        title: "Techos",
-        p1: "Un techo de calidad no solo protege su hogar, lo define. Nuestro servicio de techado combina materiales premium, instalación profesional y atención a cada detalle para brindarle tranquilidad, eficiencia y estética impecable.",
-        p2: "Su techo es la primera línea de defensa contra el clima. Por eso, en cada proyecto de techado, ofrecemos soluciones resistentes y duraderas adaptadas a las condiciones más exigentes. Seguridad, eficiencia y estilo, todo en una estructura.",
-        p3: "Cada techo que instalamos está diseñado para durar, resistir y embellecer. Utilizamos tecnología avanzada y materiales certificados para garantizar que su inversión esté protegida durante décadas.",
-        p4: "El techado no es solo una necesidad, es una oportunidad para elevar el valor, la eficiencia y la apariencia de su propiedad. Ya sea una nueva instalación o un reemplazo, trabajamos con precisión y compromiso en cada capa.",
-        p5: "Sabemos que un buen techo no se nota, se siente. Nuestro equipo especializado en techos ofrece soluciones que aíslan, protegen y mejoran la comodidad del hogar, sin comprometer el diseño.",
-      },
-    },
-  }
-
-  // Function to update service text based on language
-  function updateServiceText(language) {
-    // Get all tab panes
-    const tabPanes = document.querySelectorAll(".tab-pane")
-
-    // Update text for each service tab
-    tabPanes.forEach((pane) => {
-      const serviceId = pane.id
-      if (serviceTranslations[language] && serviceTranslations[language][serviceId]) {
-        const serviceData = serviceTranslations[language][serviceId]
-
-        // Update title
-        const titleElement = pane.querySelector("h3")
-        if (titleElement) {
-          titleElement.textContent = serviceData.title
-        }
-
-        // Update paragraphs
-        const paragraphs = pane.querySelectorAll(".service-text p")
-        paragraphs.forEach((p, index) => {
-          const paragraphKey = `p${index + 1}`
-          if (serviceData[paragraphKey]) {
-            p.textContent = serviceData[paragraphKey]
-          }
-        })
-      }
-    })
-  }
-
-  // Add click event to language buttons
-  languageBtns.forEach((btn) => {
-    btn.addEventListener("click", function () {
-      // Remove active class from all buttons
-      languageBtns.forEach((b) => b.classList.remove("active"))
-
-      // Add active class to clicked button
-      this.classList.add("active")
-
-      // Get language
-      const language = this.getAttribute("data-lang")
-
-      // Update service text
-      updateServiceText(language)
-    })
-  })
-
-  // Initialize with English
-  updateServiceText("en")
-})
-
-
-function changeLanguage(lang) {
-  // Guardar preferencia
-  localStorage.setItem("preferredLanguage", lang);
-
-  // Actualizar estado visual de los botones
-  document.querySelectorAll(".language-btn").forEach((btn) => {
-    btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
-  });
-
-  // Traducir elementos con data-i18n
-  document.querySelectorAll("[data-i18n]").forEach((el) => {
-    const key = el.getAttribute("data-i18n");
-    if (translations[lang][key]) {
-      // Si la traducción contiene HTML (como <span>), usamos innerHTML
-      if (translations[lang][key].includes("<span")) {
-        el.innerHTML = translations[lang][key];
-      } else {
-        el.textContent = translations[lang][key];
-      }
-    }
-  });
-
-  // Llamar a la actualización especial de los servicios (tabs)
-  if (typeof updateServiceText === 'function') {
-    updateServiceText(lang);
+  if (footerCopyright) {
+    const year = footerCopyright.querySelector("#currentYear")
+      ? document.getElementById("currentYear").textContent
+      : new Date().getFullYear()
+    footerCopyright.innerHTML = `&copy; <span id="currentYear">${year}</span> OA BUILD-OUT CONTRACTORS LLC. ${translations[lang].footer_rights}`
   }
 }
-
-// Hacer la función disponible para script.js
-window.changeLanguage = changeLanguage;

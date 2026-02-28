@@ -292,24 +292,3 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log("[v0] ERROR: changeLanguage function not found!");
     }
 });
-
-
-// Dentro de document.addEventListener('DOMContentLoaded', function() { ...
-
-const languageBtns = document.querySelectorAll('.language-btn');
-
-languageBtns.forEach(btn => {
-    btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        const lang = this.getAttribute('data-lang');
-        if (typeof changeLanguage === 'function') {
-            changeLanguage(lang);
-        }
-    });
-});
-
-// Cargar idioma guardado al iniciar
-const savedLanguage = localStorage.getItem('preferredLanguage') || 'en';
-if (typeof changeLanguage === 'function') {
-    changeLanguage(savedLanguage);
-}

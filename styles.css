@@ -41,8 +41,8 @@ a {
     text-align: center;
 }
 
-.gold-text {
-    color: #F59E0B;
+.blue-text {
+    color: #1E40AF;
 }
 
 .mt-40 {
@@ -73,7 +73,7 @@ section {
 .section-divider {
     width: 80px;
     height: 4px;
-    background-color: #F59E0B;
+    background-color: #1E40AF;
     margin: 0 auto 20px;
 }
 
@@ -95,12 +95,12 @@ section {
 }
 
 .btn-primary {
-    background-color: #F59E0B;
+    background-color: #1E40AF;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: #D97706;
+    background-color: #1E3A8A;
 }
 
 .btn-secondary {
@@ -159,7 +159,7 @@ section {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #F59E0B;
+    color: #1E40AF;
 }
 
 .mobile-menu-btn {
@@ -216,7 +216,7 @@ section {
 }
 
 .language-btn.active {
-    background-color: #F59E0B;
+    background-color: #1E40AF;
     color: white;
 }
 
@@ -318,7 +318,7 @@ section {
 }
 
 .dot.active {
-    background-color: #F59E0B;
+    background-color: #1E40AF;
 }
 
 /* Hero Section */
@@ -427,7 +427,7 @@ section {
 }
 
 .payment-methods span i {
-    color: #F59E0B;
+    color: #1E40AF;
 }
 
 .stats-container {
@@ -438,7 +438,7 @@ section {
 }
 
 .stat-item {
-    border-left: 4px solid #F59E0B;
+    border-left: 4px solid #1E40AF;
     padding-left: 16px;
 }
 
@@ -481,7 +481,7 @@ section {
 }
 
 .tab-btn.active {
-    background-color: #F59E0B;
+    background-color: #1E40AF;
     color: white;
 }
 
@@ -611,7 +611,7 @@ section {
 }
 
 .filter-btn.active {
-    background-color: #F59E0B;
+    background-color: #1E40AF;
     color: white;
 }
 
@@ -759,7 +759,7 @@ section {
 }
 
 .contact-icon {
-    color: #F59E0B;
+    color: #1E40AF;
     margin-right: 16px;
     flex-shrink: 0;
     font-size: 24px;
@@ -788,14 +788,14 @@ section {
     justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: #F59E0B;
+    background-color: #1E40AF;
     border-radius: 50%;
     color: white;
     transition: background-color 0.3s ease;
 }
 
 .social-link:hover {
-    background-color: #D97706;
+    background-color: #1E3A8A;
 }
 
 .payment-methods-large {
@@ -815,7 +815,7 @@ section {
 }
 
 .payment-method i {
-    color: #F59E0B;
+    color: #1E40AF;
     font-size: 20px;
 }
 
@@ -839,7 +839,7 @@ section {
 
 /* Estimate Banner */
 .estimate-banner {
-    background-color: #F59E0B;
+    background-color: #1E40AF;
     color: white;
     padding: 40px 0;
 }
