@@ -37,22 +37,22 @@ const translations = {
     services_psyren_painting: "Professional Drywall Setup",
     services_commercial_exterior: "Interior White Painting",
     services_residential_exterior: "White Exterior Coating",
-    services_ceramic: "Laminate Floor Expert",
-    services_laminate: "Exclusive Hallway Flooring",
+    services_ceramic: "Tile Floor Expert",
+    services_laminate: "Exclusive Hallway Tile",
 
     // Service Descs
     services_laminate_painting_desc: "Specialized in painting beautiful homes with high-quality finishes and elegant white exteriors.",
     services_psyren_painting_desc: "Modern painting solutions that enhance the architectural beauty and curb appeal of your residence.",
     services_commercial_exterior_desc: "Professional exterior painting meticulously applied to give your house a brand-new, premium look.",
     services_residential_exterior_desc: "Durable and brilliant white coating designed to protect your home while keeping it stunning.",
-    services_ceramic_desc: "High-quality laminate flooring installation for a durable, elegant, and low-maintenance interior.",
-    services_laminate_desc: "Precision laminate installation for hallways and high-traffic areas in luxury homes.",
+    services_ceramic_desc: "High-quality tile and ceramic installation for a durable, elegant, and low-maintenance interior.",
+    services_laminate_desc: "Precision tile installation for hallways and high-traffic areas in luxury homes.",
     services_request: "Request Free Estimate",
 
     // New Service Detail Card Descriptions (specifically for the cards)
     card_drywall_desc: "Expert drywall installation and structural finishing, providing the perfect base for any interior wall in American homes.",
-    card_tile_desc: "High-precision laminate installation in interior spaces, creating a seamless and durable floor that enhances your living area.",
-    card_ceramic_desc: "Specialized laminate flooring work focusing on modern aesthetics and long-lasting durability for your home.",
+    card_tile_desc: "High-precision tile installation in interior spaces, creating a seamless and durable floor that enhances your living area.",
+    card_ceramic_desc: "Specialized ceramic and tile work focusing on modern aesthetics and long-lasting durability for your home.",
     card_ext_paint_desc: "Durable exterior painting that protects your home from the weather while giving it a fresh, clean look.",
     card_int_paint_desc: "Beautiful white interior painting that brightens up your home, creating a clean and spacious atmosphere.",
     card_premium_int_desc: "Professional interior painting for multi-level homes, including staircases and hallways with a flawless finish.",
@@ -74,13 +74,13 @@ const translations = {
     service_residential_exterior_p1: "Specialized coating and painting for white houses, delivering a bright, clean, and professional appearance that reflects heat and looks amazing.",
     service_residential_exterior_p2: "We protect your investment with weather-resistant materials that keep the white color vibrant and resistant to aging.",
 
-    service_ceramic_title: "Laminate Floor Expert",
-    service_ceramic_p1: "High-precision laminate installation in interior spaces, creating a seamless and durable floor that enhances any room.",
-    service_ceramic_p2: "We ensure proper leveling and underlayment to provide a stable, sound-absorbing, and beautiful surface that lasts for decades.",
+    service_ceramic_title: "Tile Floor Expert",
+    service_ceramic_p1: "High-precision tile and ceramic installation in interior spaces",
+    service_ceramic_p2: "We ensure proper leveling and high-quality mortar to provide a stable, beautiful surface that lasts for decades.",
 
-    service_laminate_title: "Exclusive Hallway Flooring",
-    service_laminate_p1: "Expert laminate flooring installation specifically designed for hallways and corridors in high-end residential properties.",
-    service_laminate_p2: "Transform your home's transitions with a seamless, high-traffic resistant finish that connects your living spaces with unmatched style.",
+    service_laminate_title: "Exclusive Hallway Tile",
+    service_laminate_p1: "Expert tile flooring installation specifically designed for hallways and corridors.",
+    service_laminate_p2: "Transform your home's transitions with a seamless, high-traffic resistant tile finish.",
 
     // Gallery
     gallery_title: "Our <span class='blue-text'>Gallery</span>",
@@ -91,29 +91,43 @@ const translations = {
     gallery_commercial_exterior: "Commercial Paint",
     gallery_residential_exterior: "Exterior Paint",
     gallery_ceramic: "Ceramic",
-    gallery_laminate: "Laminate",
+    gallery_laminate: "Tile Work",
     gallery_location: "Houston, TX",
     gallery_concrete: "Concrete Work",
 
     // New Services Card Keys
     services_card_1: "Professional Drywall Setup",
-    services_card_2: "Master Laminate Flooring",
-    services_card_3: "Modern Laminate Design",
+    services_card_2: "Master Tile Flooring",
+    services_card_3: "Modern Tile Design",
     services_card_4: "Quality Exterior Painting",
     services_card_5: "Pure White Interior",
     services_card_6: "Elegant Staircase Finish",
 
     // New Gallery Keys
-    gallery_comm_ext_paint_inst: "Commercial exterior painting installation",
-    gallery_comm_ext_paint: "Commercial exterior painting",
-    gallery_res_ext_paint_inst: "Premium Exterior Finish",
-    gallery_ext_res_paint_inst: "Modern Home Painting",
-    gallery_ext_paint_inst: "White Exterior Coating",
-    gallery_ext_paint: "Exterior House Painting",
-    gallery_lam_floor_inst: "Laminate Flooring Installation",
-    gallery_int_paint: "Interior painting",
-    gallery_tile_inst: "Tile installation",
-    gallery_drywall_inst: "Drywall installation and insulation",
+    gallery_item_1_title: "Modern Home Painting",
+    gallery_item_1_desc: "Modern exterior finish for a premium residential property",
+    gallery_item_2_title: "Premium Exterior Finish",
+    gallery_item_2_desc: "Complete protection and elegant look for your home facade",
+    gallery_item_3_title: "Tile Flooring",
+    gallery_item_3_desc: "Durable and stylish ceramic tiles for modern living spaces",
+    gallery_item_4_title: "Exterior House Painting",
+    gallery_item_4_desc: "Professional coating with high-quality weather resistance",
+    gallery_item_5_title: "Interior Design Paint",
+    gallery_item_5_desc: "Bright and clean interior wall transformation and finishing",
+    gallery_item_7_title: "White Exterior Coating",
+    gallery_item_7_desc: "Specialized heat-reflective coating for American style homes",
+    gallery_item_8_title: "Master Tile Finishing",
+    gallery_item_8_desc: "Precision tile work with professional leveling and finish",
+    gallery_item_16_title: "Commercial Painting",
+    gallery_item_16_desc: "Large scale exterior painting for business facilities",
+    gallery_item_18_title: "Business Facade Update",
+    gallery_item_18_desc: "Modern professional look for commercial properties",
+    gallery_item_22_title: "Hallway Tile",
+    gallery_item_22_desc: "Elegant transition tile work tailored for high-traffic areas",
+
+    gallery_res_exterior: "Residential Exterior",
+    gallery_comm_exterior: "Commercial Exterior",
+    gallery_tile_work: "Tile Work",
 
     // Reviews
     reviews_title: "Our <span class='blue-text'>Reviews</span>",
@@ -180,22 +194,22 @@ const translations = {
     services_psyren_painting: "Acabado de Drywall",
     services_commercial_exterior: "Pintura Interior Blanca",
     services_residential_exterior: "Recubrimiento Exterior Blanco",
-    services_ceramic: "Experto en Piso Laminado",
-    services_laminate: "Pisos de Pasillos Exclusivos",
+    services_ceramic: "Experto en Azulejos",
+    services_laminate: "Pasillos en Azulejo Exclusivos",
 
     // Service Descs
     services_laminate_painting_desc: "Especializados en pintar casas hermosas con acabados de alta calidad y elegantes exteriores blancos.",
     services_psyren_painting_desc: "Soluciones de pintura modernas que realzan la belleza arquitectónica y el atractivo visual de su residencia.",
     services_commercial_exterior_desc: "Pintura exterior profesional aplicada meticulosamente para darle a su casa un aspecto premium y nuevo.",
     services_residential_exterior_desc: "Recubrimiento blanco brillante y duradero diseñado para proteger su hogar mientras lo mantiene impresionante.",
-    services_ceramic_desc: "Instalación de pisos laminados de alta calidad para un interior duradero, elegante y de bajo mantenimiento.",
-    services_laminate_desc: "Instalación de precisión de pisos laminados para pasillos y áreas de mucho tráfico en casas de lujo.",
+    services_ceramic_desc: "Instalación de azulejos y cerámica de alta calidad para un interior duradero, elegante y de bajo mantenimiento.",
+    services_laminate_desc: "Instalación de precisión de azulejos para pasillos y áreas de mucho tráfico en casas de lujo.",
     services_request: "Solicitar Presupuesto Gratis",
 
     // New Service Detail Card Descriptions (specifically for the cards)
     card_drywall_desc: "Instalación experta de drywall y acabados estructurales, proporcionando la base perfecta para cualquier pared interior.",
-    card_tile_desc: "Instalación de laminado de alta precisión en espacios interiores, creando un suelo uniforme y duradero.",
-    card_ceramic_desc: "Trabajo especializado en pisos laminados enfocándose en la estética moderna y durabilidad para su hogar.",
+    card_tile_desc: "Instalación de azulejos de alta precisión en espacios interiores, creando un suelo uniforme y duradero.",
+    card_ceramic_desc: "Trabajo especializado en cerámica y azulejos enfocándose en la estética moderna y durabilidad para su hogar.",
     card_ext_paint_desc: "Pintura exterior duradera que protege su hogar de la intemperie mientras le da un aspecto fresco y limpio.",
     card_int_paint_desc: "Hermosa pintura interior en blanco que ilumina su hogar, creando una atmósfera limpia y espaciosa.",
     card_premium_int_desc: "Pintura interior profesional para casas de varios niveles, incluyendo escaleras y pasillos con un acabado impecable.",
@@ -217,13 +231,13 @@ const translations = {
     service_residential_exterior_p1: "Recubrimiento y pintura especializada para casas blancas, brindando una apariencia exterior brillante, limpia y profesional que luce increíble.",
     service_residential_exterior_p2: "Protegemos su inversión con materiales resistentes al clima que mantienen el color blanco vibrante y resistente al paso del tiempo.",
 
-    service_ceramic_title: "Experto en Piso Laminado",
-    service_ceramic_p1: "Instalación de laminado de alta precisión en espacios interiores, creando un suelo uniforme y duradero que realza cualquier habitación.",
-    service_ceramic_p2: "Aseguramos una nivelación adecuada para proporcionar una superficie estable, silenciosa y hermosa que dure décadas.",
+    service_ceramic_title: "Experto en Azulejos",
+    service_ceramic_p1: "Instalación de azulejos y cerámica de alta precisión en espacios interiores",
+    service_ceramic_p2: "Aseguramos una nivelación adecuada y adhesivos de alta calidad para proporcionar una superficie estable y hermosa.",
 
-    service_laminate_title: "Pisos de Pasillos Exclusivos",
-    service_laminate_p1: "Instalación experta de pisos laminados específicamente diseñada para pasillos y corredores en propiedades residenciales de alta gama.",
-    service_laminate_p2: "Transforme las transiciones de su hogar con un acabado impecable y resistente al alto tráfico que conecte sus espacios con un estilo inigualable.",
+    service_laminate_title: "Pasillos en Azulejo Exclusivos",
+    service_laminate_p1: "Instalación experta de azulejos específicamente diseñada para pasillos y corredores.",
+    service_laminate_p2: "Transforme las transiciones de su hogar con un acabado de azulejo impecable.",
 
     // Gallery
     gallery_title: "Nuestra <span class='blue-text'>Galería</span>",
@@ -234,29 +248,43 @@ const translations = {
     gallery_commercial_exterior: "Pintura exterior comercial",
     gallery_residential_exterior: "Pintura exterior",
     gallery_ceramic: "Cerámica",
-    gallery_laminate: "Piso laminado",
+    gallery_laminate: "Azulejos",
     gallery_location: "Houston, TX",
     gallery_concrete: "Trabajo de Concreto",
 
     // New Services Card Keys
     services_card_1: "Acabado Profesional de Drywall",
-    services_card_2: "Piso Laminado Interior Maestro",
-    services_card_3: "Diseño Moderno de Laminado",
+    services_card_2: "Piso de Azulejo Maestro",
+    services_card_3: "Diseño Moderno de Azulejo",
     services_card_4: "Pintura Exterior de Calidad",
     services_card_5: "Interior en Blanco Puro",
     services_card_6: "Acabado de Escalera Elegante",
 
     // New Gallery Keys
-    gallery_comm_ext_paint_inst: "Instalación de pintura exterior comercial",
-    gallery_comm_ext_paint: "Pintura exterior comercial",
-    gallery_res_ext_paint_inst: "Acabado Exterior Premium",
-    gallery_ext_res_paint_inst: "Pintura de Hogar Moderno",
-    gallery_ext_paint_inst: "Recubrimiento Exterior Blanco",
-    gallery_ext_paint: "Pintura de Casa Exterior",
-    gallery_lam_floor_inst: "Instalación de Piso Laminado",
-    gallery_int_paint: "Pintura interior",
-    gallery_tile_inst: "Instalación de azulejos",
-    gallery_drywall_inst: "Instalación de drywall y aislamiento",
+    gallery_item_1_title: "Pintura de Hogar Moderno",
+    gallery_item_1_desc: "Acabado exterior moderno para una propiedad residencial premium",
+    gallery_item_2_title: "Acabado Exterior Premium",
+    gallery_item_2_desc: "Protección completa y aspecto elegante para la fachada de su hogar",
+    gallery_item_3_title: "Pisos de Azulejo",
+    gallery_item_3_desc: "Suelo de cerámica duradero y elegante para espacios modernos",
+    gallery_item_4_title: "Pintura de Casa Exterior",
+    gallery_item_4_desc: "Recubrimiento profesional con alta resistencia a la intemperie",
+    gallery_item_5_title: "Pintura de Diseño Interior",
+    gallery_item_5_desc: "Transformación y acabado de paredes interiores brillante y limpia",
+    gallery_item_7_title: "Recubrimiento Exterior Blanco",
+    gallery_item_7_desc: "Recubrimiento especializado reflectante de calor para casas estilo americano",
+    gallery_item_8_title: "Acabado Maestro de Azulejos",
+    gallery_item_8_desc: "Trabajo de azulejos de precisión con nivelación profesional",
+    gallery_item_16_title: "Pintura Comercial",
+    gallery_item_16_desc: "Pintura exterior a gran escala para instalaciones comerciales",
+    gallery_item_18_title: "Renovación de Fachada",
+    gallery_item_18_desc: "Aspecto profesional moderno para propiedades comerciales",
+    gallery_item_22_title: "Azulejo de Pasillo",
+    gallery_item_22_desc: "Suelo de transición elegante diseñado para áreas de alto tráfico",
+
+    gallery_res_exterior: "Exterior Residencial",
+    gallery_comm_exterior: "Exterior Comercial",
+    gallery_tile_work: "Azulejos",
 
     // Reviews
     reviews_title: "Nuestras <span class='blue-text'>Reseñas</span>",
@@ -444,13 +472,21 @@ function changeLanguage(lang) {
     }
   }
 
-  // Gallery items - Use titles directly
+  // Gallery items - Use unique keys for title and description
   const galleryItems = document.querySelectorAll(".gallery-item")
 
   galleryItems.forEach((item) => {
-    const category = item.getAttribute("data-category");
-    if (category && translations[lang][`gallery_${category}`]) {
-      item.querySelector("h3").textContent = translations[lang][`gallery_${category}`];
+    const titleKey = item.getAttribute("data-title-key");
+    const descKey = item.getAttribute("data-desc-key");
+
+    if (titleKey && translations[lang][titleKey]) {
+      const h3 = item.querySelector("h3");
+      if (h3) h3.textContent = translations[lang][titleKey];
+    }
+
+    if (descKey && translations[lang][descKey]) {
+      const p = item.querySelector("p");
+      if (p) p.textContent = translations[lang][descKey];
     }
   });
 
