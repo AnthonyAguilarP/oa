@@ -125,8 +125,8 @@ const translations = {
     gallery_item_22_title: "Hallway Tile",
     gallery_item_22_desc: "Elegant transition tile work tailored for high-traffic areas",
 
-    gallery_res_exterior: "Residential Exterior",
-    gallery_comm_exterior: "Commercial Exterior",
+    gallery_res_exterior: "Res. Interior/Exterior",
+    gallery_comm_exterior: "Comm. Interior/Exterior",
     gallery_tile_work: "Tile Work",
 
     // Reviews
@@ -282,8 +282,8 @@ const translations = {
     gallery_item_22_title: "Azulejo de Pasillo",
     gallery_item_22_desc: "Suelo de transición elegante diseñado para áreas de alto tráfico",
 
-    gallery_res_exterior: "Exterior Residencial",
-    gallery_comm_exterior: "Exterior Comercial",
+    gallery_res_exterior: "Interior/Exterior Res.",
+    gallery_comm_exterior: "Interior/Exterior Com.",
     gallery_tile_work: "Azulejos",
 
     // Reviews
